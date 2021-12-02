@@ -1,7 +1,11 @@
- //import 'dart:io';
+ import 'dart:io';
 main() {
-  int a= 81,b=11;
- print(myNewMethod2());
+ print( -5 + 8 * 6);
+ print( (55+9) % 9);
+ print( 20 + -3*5 / 8);
+ print(5 + 15 / 3 * 2 - 8 % 3);
+ //  int a= 81,b=11;
+ // print(myNewMethod2());
   // print(adress());
   // var divition = pass(23, 45);
   // print(divition);
@@ -111,10 +115,10 @@ main() {
  //   return{'id': "333",'Nmae': "Shatil",'Phone': "01771734215",};
  // }
 
- myNewMethod(int a,int b){
-  return (a*b);
- }
-
- myNewMethod2(){
-  print(myNewMethod(81, 11));
- }
+ // myNewMethod(int a,int b){
+ //  return (a*b);
+ // }
+ //
+ // myNewMethod2(){
+ //  print(myNewMethod(81, 11));
+ // }
