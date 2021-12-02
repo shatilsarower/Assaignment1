@@ -1,5 +1,11 @@
 import 'dart:io';
 main() {
+  print(sum(30, 40));
+  print(dis(30, 80));
+  print(sub(3, 40));
+  print(subtract(32, 40));
+  print(reminder(32, 40));
+
 // int count=0;
 // print("Enter the number\n");
 // int a = int. parse(stdin. readLineSync()!);
@@ -7,7 +13,7 @@ main() {
 // int b = int. parse(stdin. readLineSync()!);
 // count = a+b;
 // print("The sum of those number are \n $count",);
-print(product());
+// print(product());
 }
 
 // int mon(int a) {
@@ -40,12 +46,44 @@ print(product());
 //   return a;
 // } sf Problem p pefldshflkds
 
-product(){
-  int pro=1;
-  print("Enter the number\n");
-  int a = int. parse(stdin. readLineSync()!);
-  print("Enter the number\n");
-  int b = int. parse(stdin. readLineSync()!);
-  pro = a*b;
-  return pro;
+// product(){
+//   int pro=1;
+//   print("Enter the number\n");
+//   int a = int. parse(stdin. readLineSync()!);
+//   print("Enter the number\n");
+//   int b = int. parse(stdin. readLineSync()!);
+//   pro = a*b;
+//   return pro;
+// }
+
+
+
+var result = sum(30, 40);
+var result1 = dis(30, 40);
+var result2= sub(30, 40);
+var result3 = subtract(30, 40);
+
+
+
+int sum(int value1,int value2){
+  var add = value1+value2;
+  return add;
+}
+
+int dis(int value1,int value2){
+  var dis = value1-value2;
+  return dis;
+}
+
+int sub(int value1,int value2){
+  var sub = value1*value2;
+  return sub;
+}
+double subtract(double value1,double value2){
+  var subtract = value1/value2;
+  return subtract;
+}
+double reminder(double value1,double value2){
+  var reminder = value1%value2;
+  return reminder;
 }
