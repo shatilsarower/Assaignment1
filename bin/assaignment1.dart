@@ -1,7 +1,8 @@
- import 'dart:io';
+ //import 'dart:io';
 main() {
-  var divition = pass(23, 45);
-  print(divition);
+  print(adress());
+  // var divition = pass(23, 45);
+  // print(divition);
   // print(perimeter());
   // print(sum(30, 40));
   // print(dis(30, 80));
@@ -97,7 +98,13 @@ main() {
 //  return A;
 // }
 
-  pass(int a, int b){
-  double div = a/b;
-  return div;
+ //  pass(int a, int b){
+ //  double div = a/b;
+ //  return div;
+ // }
+
+ Map<String,String> adress(){
+
+
+   return{'id': "333",'Nmae': "Shatil",'Phone': "01771734215",};
  }
