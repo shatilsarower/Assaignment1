@@ -1,6 +1,8 @@
  //import 'dart:io';
 main() {
-  print(adress());
+  int a= 81,b=11;
+ print(myNewMethod2());
+  // print(adress());
   // var divition = pass(23, 45);
   // print(divition);
   // print(perimeter());
@@ -103,8 +105,16 @@ main() {
  //  return div;
  // }
 
- Map<String,String> adress(){
+ // Map<String,String> adress(){
+ //
+ //
+ //   return{'id': "333",'Nmae': "Shatil",'Phone': "01771734215",};
+ // }
 
+ myNewMethod(int a,int b){
+  return (a*b);
+ }
 
-   return{'id': "333",'Nmae': "Shatil",'Phone': "01771734215",};
+ myNewMethod2(){
+  print(myNewMethod(81, 11));
  }
