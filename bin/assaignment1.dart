@@ -58,10 +58,7 @@ main() {
 
 
 
-var result = sum(30, 40);
-var result1 = dis(30, 40);
-var result2= sub(30, 40);
-var result3 = subtract(30, 40);
+
 
 
 
