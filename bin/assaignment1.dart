@@ -1,10 +1,11 @@
-import 'dart:io';
+ import 'dart:io';
 main() {
-  print(sum(30, 40));
-  print(dis(30, 80));
-  print(sub(3, 40));
-  print(subtract(32, 40));
-  print(reminder(32, 40));
+  print(perimeter());
+  // print(sum(30, 40));
+  // print(dis(30, 80));
+  // print(sub(3, 40));
+  // print(subtract(32, 40));
+  // print(reminder(32, 40));
 
 // int count=0;
 // print("Enter the number\n");
@@ -62,25 +63,34 @@ main() {
 
 
 
-int sum(int value1,int value2){
-  var add = value1+value2;
-  return add;
-}
+// int sum(int value1,int value2){
+//   var add = value1+value2;
+//   return add;
+// }
+//
+// int dis(int value1,int value2){
+//   var dis = value1-value2;
+//   return dis;
+// }
+//
+// int sub(int value1,int value2){
+//   var sub = value1*value2;
+//   return sub;
+// }
+// double subtract(double value1,double value2){
+//   var subtract = value1/value2;
+//   return subtract;
+// }
+// double reminder(double value1,double value2){
+//   var reminder = value1%value2;
+//   return reminder;
+// }
 
-int dis(int value1,int value2){
-  var dis = value1-value2;
-  return dis;
-}
+perimeter(){
 
-int sub(int value1,int value2){
-  var sub = value1*value2;
-  return sub;
-}
-double subtract(double value1,double value2){
-  var subtract = value1/value2;
-  return subtract;
-}
-double reminder(double value1,double value2){
-  var reminder = value1%value2;
-  return reminder;
+   double pie = 3.1416;
+  print("Enter the perimeter of a circle\n");
+  int C = int. parse(stdin. readLineSync()!);
+  var A ={( C*C )/(4*pie)} ;
+ return A;
 }
