@@ -1,6 +1,8 @@
  import 'dart:io';
 main() {
-  print(perimeter());
+  var divition = pass(23, 45);
+  print(divition);
+  // print(perimeter());
   // print(sum(30, 40));
   // print(dis(30, 80));
   // print(sub(3, 40));
@@ -86,11 +88,16 @@ main() {
 //   return reminder;
 // }
 
-perimeter(){
+// perimeter(){
+//
+//    double pie = 3.1416;
+//   print("Enter the perimeter of a circle\n");
+//   int C = int. parse(stdin. readLineSync()!);
+//   var A ={( C*C )/(4*pie)} ;
+//  return A;
+// }
 
-   double pie = 3.1416;
-  print("Enter the perimeter of a circle\n");
-  int C = int. parse(stdin. readLineSync()!);
-  var A ={( C*C )/(4*pie)} ;
- return A;
-}
+  pass(int a, int b){
+  double div = a/b;
+  return div;
+ }
